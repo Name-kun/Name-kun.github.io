@@ -1,0 +1,58 @@
+body {
+    background: rgb(246, 178, 255);
+}
+
+#title {
+    font-size: 72px;
+    color: rgb(43, 31, 85);
+    text-align: center;
+}
+
+.button {
+    background: rgb(178, 43, 190);
+    color: #fff;
+    border: 6px;
+    padding: 6px;
+    border-radius: 4px;
+    user-select: none;
+    margin: 10px;
+}
+
+#bottom-controller {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(178, 43, 190);
+    height: 5vh;
+    width: 100%;
+}
+
+#play-position {
+    width: calc(100% - 70px);
+    position: fixed;
+    bottom: 8px;
+    transform: translateY(-80%);
+    right: 10px;
+}
+#position {
+    position: fixed;
+    font-size: 12px;
+    color: #999;
+    left: 60px;
+    bottom:6px;
+}
+#togglePlay {
+    position: fixed;
+    bottom: 12px;
+    left: 5px;
+    user-select: none;
+    color: #fff;
+}
+
+#toggleLoop {
+    position: fixed;
+    bottom: 12px;
+    left: 27px;
+    user-select: none;
+    color: #666
+}

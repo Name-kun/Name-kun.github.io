@@ -9,8 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/expandchildays.png" rel="icon">
 
   <!--ogp-->
   <meta property="og:url" content="https://childays.com" />
@@ -35,6 +34,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/service-details.css" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +56,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/expandchildays.png" alt="">
         <h1 class="sitename">株式会社Childays</h1>
       </a>
 
@@ -69,8 +69,6 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
   </header>
@@ -91,10 +89,6 @@
                 アイデアで <br>
                 未来を創る <br>
               </h1>
-
-              <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
-              </div>
             </div>
           </div>
 
@@ -189,15 +183,15 @@
                   <li><i class="bi bi-check2-all"></i> <span>選りすぐりの現役東北大生講師たちだから提供できる価値</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>新興の学習塾でありながら数多の実績</span></li>
                 </ul>
+                <div class="hero-buttons">
+                  <a href="https://tonpei-study.com/" target="_blank"
+                    style="background-color:#0D83FD; padding: 0.75rem 2.5rem; border-radius: 50px; font-weight: 500; margin-top: 50px;"
+                    class="order-1 btn btn-primary me-0 me-sm-2 mx-1">公式サイト</a>
+                </div>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="assets/img/kataoka.png" alt="" class="img-fluid">
               </div>
-            </div>
-            <div class="hero-buttons">
-              <a href="https://tonpei-study.com/" target="_blank"
-                style="background-color:#0D83FD; padding: 0.75rem 2.5rem; border-radius: 50px; font-weight: 500; margin-top: -50px;"
-                class="order-1 btn btn-primary me-0 me-sm-2 mx-1">公式サイト</a>
             </div>
           </div><!-- End tab content item -->
 
@@ -210,7 +204,9 @@
                   そしてよりインタラクティブなプラットフォームへ
                 </p>
                 <ul>
-
+                  <li><i class="bi bi-check2-all"></i> <span>所属タレントへの還元率を最大に</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>コミュニティ内で協調して高め合える環境</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>自由な活動方針で自主性の高いサポート体制</span></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -225,22 +221,51 @@
 
     </section><!-- /Features Section -->
 
-    <!-- Call To Action 2 Section -->
-    <section id="about" class="call-to-action-2 section dark-background">
+    <section id="about" class="features service-details section">
 
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>会社概要</h3>
-              <p>企業情報についてはこちらからご確認ください。</p>
-              <a class="cta-btn" href="service-details.html">→</a>
-            </div>
-          </div>
-        </div>
+      <div class="container section-title" data-aos="fade-up">
+        <h2>会社概要</h2>
       </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
 
-    </section><!-- /Call To Action 2 Section -->
+        <div class="row gy-5">
+
+          <div>
+
+            <table class="design10">
+              <tbody>
+                <tr>
+                  <th>商号</th>
+                  <td>株式会社Childays</td>
+                </tr>
+                <tr>
+                  <th>代表取締役</th>
+                  <td>片岡結</td>
+                </tr>
+                <tr>
+                  <th>設立</th>
+                  <td>2022年1月</td>
+                </tr>
+                <tr>
+                  <th>メール</th>
+                  <td>kataoka@childays.com</td>
+                </tr>
+                <tr>
+                  <th>事業内容</th>
+                  <td>
+                    教育事業(個別指導型学習塾の運営及び教育プログラムの提供)<br>
+                    デジタルコンテンツ事業(VTuberの企画・育成・マネジメント及び関連メディアコンテンツの制作・運営)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+          </div>
+
+        </div>
+
+    </section>
 
     <!--
     <section class="faq-9 faq section light-background" id="faq">
@@ -389,7 +414,6 @@
 
     <div class="container copyright text-center mt-4">
       <ul style="list-style-type: none;">
-        <li><a href="./service-details.html">会社概要</a></li>
         <li><a href="./privacy-policy.html">プライバシーポリシー</a></li>
       </ul>
       <p><b>©株式会社Childays</b> <span>All Rights Reserved</span></p>

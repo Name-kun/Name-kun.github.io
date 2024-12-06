@@ -1,18 +1,18 @@
 .design10 {
-    width: 80%;
+    width: 90%;
     text-align: center;
     border-collapse: collapse;
     border-spacing: 0;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
    }
    .design10 tr {
     height: 100px;
    }
    .design10 th {
     padding: 10px;
-    border-bottom: solid 4px #778ca3;
-    color: #778ca3
+    border-bottom: solid 2px #778ca3;
+    color: #778ca3;
    }
    .design10 td {
     padding: 10px;
